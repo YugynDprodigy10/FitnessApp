@@ -1,10 +1,9 @@
-# To Be Determined
+# Fitness App with GenAI
 
-## Our Team
+## Author
 
-Armando Levario Alvarez,
 Eugene Taabazuing,
-Alejandro López
+
 
 ## Access app
 
