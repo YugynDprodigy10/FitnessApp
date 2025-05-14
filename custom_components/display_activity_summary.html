@@ -1,0 +1,116 @@
+<!-- All this code is AI generated from the following conversation: https://gemini.google.com/app/b834cca690b30ef4 -->
+ <!-- CSS -->
+<style>
+  /* Note that the CSS selector matches the HTML class name */
+  .custom-component-container {
+    border: 2px solid black;
+    padding: 0px;
+    height: 70vh;
+    width: 80vw;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #profile_picture {
+    clip-path: circle();
+  }
+
+  #posted_image {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    border-radius: calc(5vw + 5vh);
+    /* will scale, maybe you find this usefull */
+  }
+
+  #workout {
+    border-radius: 25px;
+    background-color: #E6E6E6;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: auto;
+    height: 80vh;
+    width: 20vw;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  #additional-info {
+    color: #a6a4a4;
+    font-size: small;
+  }
+
+  #lat-lng {
+    font-size: x-small;
+  }
+
+  #workout-id {
+    font-size: small;
+  }
+
+  grey-text {
+    color: #a6a4a4;
+  }
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+<!-- HTML -->
+<div class="workout-container">
+  <div class="column" id="workout">
+    <h2 id="workout-id">
+      <grey-text>Workout ID: </grey-text>{{WORKOUT_ID_1}}
+    </h2>
+    <p>Start time: {{WORKOUT_START_1}}</p>
+    <p>End time: {{WORKOUT_END_1}}</p>
+    <p>Distance Travelled: {{WORKOUT_DISTANCE_1}}</p>
+    <p>Steps taken: {{WORKOUT_STEPS_1}}</p>
+    <p>Calories burnt: {{WORKOUT_CALORIES_1}}</p>
+    <p id="additional-info">Additional Information</p>
+    <p id="lat-lng">Starting Latitude/Longitude: {{WORKOUT_START_LAT_LNG_1}}</p>
+    <p id="lat-lng">Ending Latitude/Longitude: {{WORKOUT_END_LAT_LNG_1}}</p>
+  </div>
+
+  {{#if WORKOUT_ID_2}}
+  <div class="column" id="workout">
+    <h2 id="workout-id">
+      <grey-text>Workout ID: </grey-text>{{WORKOUT_ID_2}}
+    </h2>
+    <p>Start time: {{WORKOUT_START_2}}</p>
+    <p>End time: {{WORKOUT_END_2}}</p>
+    <p>Distance Travelled: {{WORKOUT_DISTANCE_2}}</p>
+    <p>Steps taken: {{WORKOUT_STEPS_2}}</p>
+    <p>Calories burnt: {{WORKOUT_CALORIES_2}}</p>
+    <p id="additional-info">Additional Information</p>
+    <p id="lat-lng">Starting Latitude/Longitude: {{WORKOUT_START_LAT_LNG_2}}</p>
+    <p id="lat-lng">Ending Latitude/Longitude: {{WORKOUT_END_LAT_LNG_2}}</p>
+  </div>
+  {{/if}}
+
+  {{#if WORKOUT_ID_3}}
+  <div class="column" id="workout">
+    <h2 id="workout-id">
+      <grey-text>Workout ID: </grey-text>{{WORKOUT_ID_3}}
+    </h2>
+    <p>Start time: {{WORKOUT_START_3}}</p>
+    <p>End time: {{WORKOUT_END_3}}</p>
+    <p>Distance Travelled: {{WORKOUT_DISTANCE_3}}</p>
+    <p>Steps taken: {{WORKOUT_STEPS_3}}</p>
+    <p>Calories burnt: {{WORKOUT_CALORIES_3}}</p>
+    <p id="additional-info">Additional Information</p>
+    <p id="lat-lng">Starting Latitude/Longitude: {{WORKOUT_START_LAT_LNG_3}}</p>
+    <p id="lat-lng">Ending Latitude/Longitude: {{WORKOUT_END_LAT_LNG_3}}</p>
+  </div>
+  {{/if}}
+</div>
+
+<!-- JavaScript -->
+<script>
+</script>

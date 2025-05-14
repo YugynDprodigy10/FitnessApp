@@ -1,0 +1,25 @@
+Implement Log-in system functions #28
+A user wants to access their account so they can view its details that are hidden and secured behind an authentication system. Users should be able to click a button that will allow them to input their login details. The login process should allow users to:
+
+Access their secured information
+Link their username to a specific password
+Priorities:
+
+Create login interface
+Create a secure username and password database
+Link profiles with login credentials
+
+
+
+Implement Profile Creation functions #29
+A user wants to create a profile to access the website's functionalities fully. They should be able to click a button that will take them to a profile creation screen. In this screen, they will be able to:
+
+Choose a profile picture
+Add their name
+Link the profile to an authenticated account
+Among other things
+Priorities:
+
+Create the profile creation screen
+Allow users to choose a profile picture, their name, their authenticated account, etc.
+Make it a simple, easy-to-use process
